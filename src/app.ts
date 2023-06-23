@@ -1,3 +1,14 @@
+// Project Type
+class Project {
+  constructor(
+    public id: string,
+    public title: string,
+    public decsription: string,
+    public people: number,
+    public status: string
+  ) {}
+}
+
 // Project State Management
 class ProjectState {
   private listeners: any[] = [];
